@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+button{
+  height: 40px;
+  border-radius: 8px;
+}
+
+
+
+body{
+  background-color: white;
+}
