@@ -67,7 +67,7 @@ export default function Header({ onScroll }: PropsComponent) {
                         <li
                             className="border cursor-pointer hover:bg-textSecondColor transition hover:text-textPrimaryColor hover:scale-95 text-white rounded-lg px-4 p-2"
                         >
-                            Inscreva-se agora
+                            <Link className="flex w-full h-full justify-center items-center" href={"#formulario"}>Inscreva-se agora</Link>
                         </li>
                     </ul>
 

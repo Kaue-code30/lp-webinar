@@ -123,7 +123,7 @@ export default function AgendaWebinar() {
                         }
                     </div>
                     <button className="lg:w-3/5 w-full lg:flex hidden items-center justify-center mt-3 px-10 font-medium hover:scale-95 transition duration-300 bg-secondColor text-black ">
-                        <Link className="flex w-full h-full justify-center items-center" href={""}>Quero me inscrever</Link>
+                        <Link className="flex w-full h-full justify-center items-center" href={"#formulario"}>Quero me inscrever</Link>
                     </button>
                 </div>
                 <div className="lg:w-3/5 flex gap-3 flex-col h-auto">
@@ -151,7 +151,7 @@ export default function AgendaWebinar() {
                     }
                 </div>
                 <button className="lg:w-1/4 w-full lg:hidden flex items-center justify-center px-10 font-medium hover:scale-95 transition duration-300 bg-secondColor text-black ">
-                    <Link className="flex w-full h-full justify-center items-center" href={""}>Quero me inscrever</Link>
+                    <Link className="flex w-full h-full justify-center items-center" href={"#formulario"}>Quero me inscrever</Link>
                 </button>
             </div>
         </section>

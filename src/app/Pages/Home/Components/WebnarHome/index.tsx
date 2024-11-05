@@ -29,10 +29,10 @@ export default function WebnarHome() {
                     </p>
                     <div className="w-auto flex lg:flex-row flex-col  items-center justify-start gap-4 h-auto lg:h-12">
                         <button className="lg:w-auto w-full px-10 font-medium hover:scale-95 transition duration-300 bg-secondColor text-black ">
-                            <Link className="flex w-full h-full justify-center items-center" href={""}>Quero me inscrever</Link>
+                            <Link className="flex w-full h-full justify-center items-center" href={"#formulario"}>Quero me inscrever</Link>
                         </button>
                         <button className="lg:w-auto w-full px-10 font-medium hover:scale-95 transition duration-300 bg-[#1E1E1E] text-white ">
-                            <Link className="flex w-full h-full justify-center items-center" href={""}>Saiba mais</Link>
+                            <Link className="flex w-full h-full justify-center items-center" href={"#porque-participar"}>Saiba mais</Link>
                         </button>
                     </div>
                 </div>

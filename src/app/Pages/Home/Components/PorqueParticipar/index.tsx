@@ -20,7 +20,7 @@ export default function PorqueParticipar() {
                         Neste primeiro episódio, nosso Head do Produto, Alex Coelho, compartilhará práticas fundamentais, abordará desafios comuns e guiará um treinamento com casos práticos.
                     </p>
                     <button className="lg:w-1/2 w-full px-10 font-medium hover:scale-95 transition duration-300 bg-secondColor text-black ">
-                        <Link href={""}>Quero me inscrever</Link>
+                        <Link href={"#formulario"}>Quero me inscrever</Link>
                     </button>
                 </div>
             </div>
