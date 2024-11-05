@@ -7,18 +7,18 @@ export default function Footer() {
     const jsonList = [
         {
             index: 0,
-            nameLink: "Funcionalidades",
-            link: "/#funcionalidades"
+            nameLink: "Porque participar?",
+            link: "#porque-participar"
         },
         {
             index: 1,
-            nameLink: "Planos",
-            link: "/#planos"
+            nameLink: "Benefícios da participar",
+            link: "#beneficios"
         },
         {
             index: 2,
-            nameLink: "Integrações",
-            link: "/#integracoes"
+            nameLink: "Agenda do webnair",
+            link: "#agenda"
         },
     ]
 
@@ -26,7 +26,7 @@ export default function Footer() {
         <footer className="w-full bg-cover lg:pt-0 pt-10 flex items-center flex-col justify-center bg-center bg-no-repeat bg-[#014C34] h-auto    ">
             <div className="w-[90%] lg:w-full  max-w-[1200px] lg:pb-0 pb-7 gap-5 lg:gap-10 h-full flex text-white flex-col lg:flex-row lg:items-center justify-between">
                 <Image className="w-36" width={100} height={100} alt="" src={logoBranco} />
-                <div className="w-1/2 lg:flex-row flex-col flex items-center justify-end h-auto lg:h-[150px]">
+                <div className="w-auto lg:flex-row flex-col flex items-center justify-end h-auto lg:h-[150px]">
                     <ul className={`lg:flex lg:items-center flex lg:flex-row flex-col w-full justify-end gap-5`}>
                         {jsonList.map((i, key) => (
                             <li key={key} className="hover:scale-95 transition">

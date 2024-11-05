@@ -83,14 +83,16 @@ export default function Header({ onScroll }: PropsComponent) {
                                 className={`absolute top-[79px] left-0 w-full items-center justify-center bg-black lg:hidden flex flex-col gap-8 pb-10 py-5`}
                             >
                                 <div className="w-[90%] flex gap-5 justify-start items-start flex-col">
-                                    <ul className="flex flex-col gap-5">
+                                    <ul className="flex list-none flex-col gap-5">
                                         {jsonList.map((i, key) => (
-                                            <li key={key} className="hover:scale-95 transition">
+                                            <li onClick={() => setCloseIcon(false) } key={key} className="hover:scale-95 transition">
                                                 <Link className={``} href={i.link}>{i.nameLink}</Link>
                                             </li>
                                         ))}
                                     </ul>
-
+                                    <li onClick={() => setCloseIcon(false) } className="border w-full list-none cursor-pointer hover:bg-textSecondColor transition hover:text-textPrimaryColor hover:scale-95 text-white rounded-lg px-4 p-2">
+                                        <Link className="flex w-full h-full justify-center items-center" href={"#formulario"}>Inscreva-se agora</Link>
+                                    </li>
                                 </div>
                             </motion.div>
                         )}

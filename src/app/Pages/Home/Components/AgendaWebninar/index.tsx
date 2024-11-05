@@ -8,21 +8,29 @@ import { BsDisplay, BsQuestionSquare } from "react-icons/bs";
 import { RxStar } from "react-icons/rx";
 import juliana from "@/app/Pages/Home/Assets/JulianaPhoto.png"
 import alex from "@/app/Pages/Home/Assets/AlexPhoto.png"
+import erick from "@/app/Pages/Home/Assets/erickPhoto.png"
 
 
 export default function AgendaWebinar() {
 
     const Apresentadores = [
         {
+            photo: alex,
+            name: "Alex Coelho",
+            cargo: "Head de Produto | Ondetah"
+        },
+        {
+            photo: erick,
+            name: "Erick Gimenes",
+            cargo: "Tech Lead | Ondetah"
+        },
+        {
             photo: juliana,
             name: "Juliana Lopes",
             cargo: "Head de Growth"
         },
-        {
-            photo: alex,
-            name: "Alex Coelho",
-            cargo: "Head Ondetah"
-        },
+
+
     ]
 
     const content = [
@@ -103,10 +111,10 @@ export default function AgendaWebinar() {
                     <p className="w-auto  flex text-black items-center gap-2 h-10">
                         Apresentado por:
                     </p>
-                    <div className="flex lg:flex-row flex-col lg:items-center w-auto gap-5 lg:gap-10 justify-start">
+                    <div className="flex flex-col lg:items-center w-auto gap-5 lg:gap-5 justify-start">
                         {
                             Apresentadores.map((i, key) => (
-                                <div key={key} className="w-auto flex gap-3 items-center h-auto">
+                                <div key={key} className="w-full flex gap-3 items-center h-auto">
                                     <div className="w-16 h-16 flex items-end justify-center rounded-full shadow-md bg-custom-linear">
                                         <Image width={1000} height={1000} quality={100} className="object-cover rounded-b-full" src={i.photo} alt="Apresentador(a)" />
                                     </div>
