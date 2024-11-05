@@ -23,7 +23,7 @@ export default function Footer() {
     ]
 
     return (
-        <footer className="w-full bg-cover pt-10 flex items-center flex-col justify-center bg-center bg-no-repeat bg-[#014C34] h-auto    ">
+        <footer className="w-full bg-cover lg:pt-0 pt-10 flex items-center flex-col justify-center bg-center bg-no-repeat bg-[#014C34] h-auto    ">
             <div className="w-[90%] lg:w-full  max-w-[1200px] lg:pb-0 pb-7 gap-5 lg:gap-10 h-full flex text-white flex-col lg:flex-row lg:items-center justify-between">
                 <Image className="w-36" width={100} height={100} alt="" src={logoBranco} />
                 <div className="w-1/2 lg:flex-row flex-col flex items-center justify-end h-auto lg:h-[150px]">
