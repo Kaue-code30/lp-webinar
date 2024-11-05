@@ -37,7 +37,7 @@ export default function Footer() {
                     </ul>
                 </div>
             </div>
-            <div className="w-full flex items-center lg:justify-center bg-primaryColor flex-col h-[150px] lg:h-20 border-t border-t-white lg:flex-row gap-5 justify-between text-textSecondColor ">
+            <div className="w-full flex items-center lg:justify-center bg-[#014C34] flex-col h-[150px] lg:h-20 border-t border-t-white lg:flex-row gap-5 justify-between text-textSecondColor ">
                 <div className="w-[90%]  lg:w-full  max-w-[1200px] gap-5 lg:gap-10 h-full flex text-white flex-col lg:flex-row lg:items-center items-start lg:justify-between justify-center">
                     <Link target="_blank" href={"https://uxgroup.com.br/politica-de-privacidade"}>Politica de Privacidade</Link>
                     <Link target="_blank" href={"https://uxgroup.com.br/"}><Image className="w-32 flex " width={1000} quality={100} height={1000} alt="" src={poweredUX} /></Link>
