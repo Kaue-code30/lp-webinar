@@ -6,18 +6,20 @@ import { TiArrowSortedDown } from "react-icons/ti";
 import { FaRegCirclePlay } from "react-icons/fa6";
 import { BsDisplay, BsQuestionSquare } from "react-icons/bs";
 import { RxStar } from "react-icons/rx";
+import juliana from "@/app/Pages/Home/Assets/JulianaPhoto.png"
+import alex from "@/app/Pages/Home/Assets/AlexPhoto.png"
 
 
 export default function AgendaWebinar() {
 
     const Apresentadores = [
         {
-            photo: "",
+            photo: juliana,
             name: "Juliana Lopes",
             cargo: "Head de Growth"
         },
         {
-            photo: "",
+            photo: alex,
             name: "Alex Coelho",
             cargo: "Head Ondetah"
         },
@@ -93,7 +95,7 @@ export default function AgendaWebinar() {
                     </div>
                     <p className="w-auto flex text-black items-center gap-2 font-medium h-10">
                         <LuCalendarPlus />
-                        13/12/2024 - 17:00hrs
+                        13/11/2024 - 17:00hrs
                     </p>
                     <h1 className="text-primaryColor text-4xl font-bold">
                         <span className="text-black">Webinar:</span>  Funcionalidades e soluções do produto.
@@ -105,8 +107,8 @@ export default function AgendaWebinar() {
                         {
                             Apresentadores.map((i, key) => (
                                 <div key={key} className="w-auto flex gap-3 items-center h-auto">
-                                    <div className="w-16 h-16 rounded-full shadow-md bg-primaryColor">
-
+                                    <div className="w-16 h-16 flex items-end justify-center rounded-full shadow-md bg-custom-linear">
+                                        <Image width={1000} height={1000} quality={100} className="object-cover rounded-b-full" src={i.photo} alt="Apresentador(a)" />
                                     </div>
                                     <div className="w-auto flex flex-col h-full">
                                         <h2 className="text-sm font-bold text-black">
@@ -149,8 +151,8 @@ export default function AgendaWebinar() {
                     }
                 </div>
                 <button className="lg:w-1/4 w-full lg:hidden flex items-center justify-center px-10 font-medium hover:scale-95 transition duration-300 bg-secondColor text-black ">
-                        <Link className="flex w-full h-full justify-center items-center" href={""}>Quero me inscrever</Link>
-                    </button>
+                    <Link className="flex w-full h-full justify-center items-center" href={""}>Quero me inscrever</Link>
+                </button>
             </div>
         </section>
     )
