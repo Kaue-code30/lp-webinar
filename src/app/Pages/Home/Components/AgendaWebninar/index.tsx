@@ -17,7 +17,7 @@ export default function AgendaWebinar() {
         {
             photo: alex,
             name: "Alex Coelho",
-            cargo: "Head de Produto | Ondetah"
+            cargo: "Head of Product | Ondetah"
         },
         {
             photo: erick,
@@ -27,7 +27,7 @@ export default function AgendaWebinar() {
         {
             photo: juliana,
             name: "Juliana Lopes",
-            cargo: "Head de Growth"
+            cargo: "Head of Growth"
         },
 
 
@@ -137,7 +137,7 @@ export default function AgendaWebinar() {
                 <div className="lg:w-3/5 flex gap-3 flex-col h-auto">
                     {
                         content.map((i, key) => (
-                            <div key={key} className="p-6 border flex flex-col shadow-md gap-5 w-full h-auto  rounded-t-2xl">
+                            <div key={key} className="p-6 border flex flex-col shadow-md gap-5 w-full h-auto rounded-r-2xl  rounded-t-2xl">
                                 <div className="h-10 pl-3 flex text-textPrimaryColor gap-3 items-center justify- w-[300px] rounded-full border-textPrimaryColor border">
                                     <i.icon />
                                     <h3 className="text-primaryColor text-xl font-bold">
@@ -147,8 +147,11 @@ export default function AgendaWebinar() {
                                 <ul className="w-full flex flex-col gap-3 ">
                                     {
                                         i.listContent.map((h, key) => (
-                                            <li key={key} className="flex items-center">
-                                                <TiArrowSortedDown className="-rotate-90 text-5xl lg:text-3xl" />
+                                            <li key={key} className="flex w-auto h-auto gap-3 justify-start items-center">
+                                                <div className="w-5 h-full">
+                                                    <TiArrowSortedDown className="-rotate-90 flex justify-center items-start lg:text-3xl" />
+                                                </div>
+
                                                 <p className="text-sm">{h.text}</p>
                                             </li>
                                         ))

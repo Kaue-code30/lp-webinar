@@ -69,7 +69,7 @@ export default function ContactForm({
             setShowSuccess(true);
             setTimeout(() => {
                 setShowSuccess(false);
-            }, 3000);
+            }, 8000);
 
             setFormData({
                 floating_first_name: "",
@@ -96,7 +96,7 @@ export default function ContactForm({
         }
 
 
-        
+
 
         // Se todas as validações forem passadas, envie os dados do formulário
         mutate(formData);
@@ -212,7 +212,7 @@ export default function ContactForm({
                             Empresa* (Ex. UX Group)
                         </label>
                     </div>
-                
+
                     <div className="relative z-0 w-full mb-5 group">
                         <select
                             name="floating_cargo"
@@ -248,7 +248,7 @@ export default function ContactForm({
                             </option>
                         </select>
                     </div>
-                    
+
 
                     {inputAlternative?.map((data) => (
                         <div key={data.id} className="relative z-0 w-full mb-5 group">
@@ -309,8 +309,8 @@ export default function ContactForm({
                         >
                             <FaRegCheckCircle className="w-9 text-4xl text-[#009580] " />
                             <div className="ps-4 text-sm text-black font-normal">
-                                <h1 className="text-base ">Obrigado pelo contato.</h1>
-                                Em Breve nosso time comercial entrará em contato com você.
+                                <h1 className="text-base ">Obrigado pela sua inscrição!</h1>
+                                Você receberá o link de participação no seu e-mail e whatsapp cadastrados.
                             </div>
                         </motion.div>
                     )}

@@ -36,7 +36,7 @@ export default function Beneficios() {
                         {
                             content.map((i,key) => (
                                 <div key={key} className="h-[270px] flex items-center lg:items-start justify-center  flex-col gap-3 lg:w-[300px]">
-                                    <Image src={i.icon} alt="Icones representativos"/>
+                                    <Image className="lg:w-[35%]  w-[90px]" src={i.icon} alt="Icones representativos"/>
                                     <h1 className="text-[26px] font-bold lg:text-start text-center text-primaryColor">
                                         {i.title}
                                     </h1>
