@@ -17,7 +17,7 @@ export default function Footer() {
         },
         {
             index: 2,
-            nameLink: "Agenda do webnair",
+            nameLink: "Agenda do webinar",
             link: "#agenda"
         },
     ]

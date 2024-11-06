@@ -25,7 +25,7 @@ export default function Header({ onScroll }: PropsComponent) {
         },
         {
             index: 2,
-            nameLink: "Agenda do webnair",
+            nameLink: "Agenda do webinar",
             link: "#agenda"
         },
     ]

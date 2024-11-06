@@ -39,10 +39,10 @@ export default function AgendaWebinar() {
             icon: FaRegCirclePlay,
             listContent: [
                 {
-                    text: "Apresentação do produto e do porta-voz, Alex Coelho",
+                    text: "Boas-vindas com Juliana, Head of Growth da UX Group",
                 },
                 {
-                    text: "Boas-vindas com Juliana, Head of Growth da UX Group",
+                    text: "Apresentação do produto.",
                 },
             ]
         },
