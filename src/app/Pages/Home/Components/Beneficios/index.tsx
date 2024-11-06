@@ -48,7 +48,7 @@ export default function Beneficios() {
                         }
                     </div>
                     <button className="lg:w-1/4 w-full px-10 font-medium hover:scale-95 transition duration-300 bg-secondColor text-black ">
-                        <Link href={"#formulario"}>Quero me inscrever</Link>
+                    <Link className="flex w-full h-full justify-center items-center" href={"#formulario"}>Quero me inscrever</Link>
                     </button>
                 </div>
             </div>
