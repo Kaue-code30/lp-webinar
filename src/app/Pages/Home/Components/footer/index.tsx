@@ -12,7 +12,7 @@ export default function Footer() {
         },
         {
             index: 1,
-            nameLink: "Benefícios da participar",
+            nameLink: "Benefícios de participar",
             link: "#beneficios"
         },
         {

@@ -20,7 +20,7 @@ export default function Header({ onScroll }: PropsComponent) {
         },
         {
             index: 1,
-            nameLink: "Benefícios da participar",
+            nameLink: "Benefícios de participar",
             link: "#beneficios"
         },
         {
