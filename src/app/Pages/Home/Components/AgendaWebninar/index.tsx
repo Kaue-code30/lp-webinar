@@ -91,7 +91,7 @@ export default function AgendaWebinar() {
     ]
 
     return (
-        <section id="#agenda" className="w-full h-auto  bg-cover flex items-center justify-center bg-center bg-no-repeat bg-white pb-[80px] pt-[80px] ">
+        <section id="agenda" className="w-full h-auto  bg-cover flex items-center justify-center bg-center bg-no-repeat bg-white pb-[80px] pt-[80px] ">
             <div className="w-[90%] lg:w-full max-w-[1200px] gap-10  h-full flex lg:flex-row flex-col items-start justify-between">
                 <div className="lg:w-2/5 flex items-start justify-start gap-3 flex-col h-full">
                     <h1 className="text-4xl pb-5 font-bold text-textPrimaryColor">
