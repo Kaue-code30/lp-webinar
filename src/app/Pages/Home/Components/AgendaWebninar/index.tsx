@@ -39,7 +39,7 @@ export default function AgendaWebinar() {
             icon: FaRegCirclePlay,
             listContent: [
                 {
-                    text: "Boas-vindas com Juliana, Head of Growth da UX Group",
+                    text: "Boas-vindas com Juliana, Head of Growth da UX Group.",
                 },
                 {
                     text: "Apresentação do produto.",
@@ -54,10 +54,10 @@ export default function AgendaWebinar() {
                     text: "Comunicação e Avaliações: Criação de links de rastreamento, regras de avaliação e engajamento.",
                 },
                 {
-                    text: "Gestão de Ocorrências e Transportadoras:  Controle e monitoramento do SLA de transportadoras",
+                    text: "Gestão de Ocorrências e Transportadoras:  Controle e monitoramento do SLA de transportadoras.",
                 },
                 {
-                    text: "Análise de Performance e Predições:  Métricas de prazo, matriz de risco e ações preventivas",
+                    text: "Análise de Performance e Predições:  Métricas de prazo, matriz de risco e ações preventivas.",
                 }
             ]
         },
@@ -66,7 +66,7 @@ export default function AgendaWebinar() {
             icon: BsDisplay,
             listContent: [
                 {
-                    text: "Apresentação prática com demonstração das principais funcionalidades e ferramentas",
+                    text: "Apresentação prática com demonstração das principais funcionalidades e ferramentas.",
                 }
             ]
         },
@@ -75,7 +75,7 @@ export default function AgendaWebinar() {
             icon: RxStar,
             listContent: [
                 {
-                    text: "Redução de custos com atendimento e aumento da satisfação e recompra",
+                    text: "Redução de custos com atendimento e aumento da satisfação e recompra.",
                 }
             ]
         },
@@ -84,7 +84,7 @@ export default function AgendaWebinar() {
             icon: BsQuestionSquare,
             listContent: [
                 {
-                    text: "Sessão de esclarecimento com o time de especialistas",
+                    text: "Sessão de esclarecimento com o time de especialistas.",
                 }
             ]
         },
